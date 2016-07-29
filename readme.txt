@@ -2,7 +2,7 @@
 Contributors: sozot
 Tags: status, status page, hosted status page, service health, status dashboard, service health dashboard
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.6
 Donate link: https://sozot.com/
 Stable tag: 1.2
 License: GPLv2 or later
