@@ -1,6 +1,6 @@
 <style>
 #icon-thirtysuns {
-    background: transparent url( '<?php echo plugins_url( 'assets/thirtysuns_32.png', __FILE__ ); ?>' ) no-repeat;
+    background: transparent url( '<?php echo plugins_url( 'img/thirtysuns_32.png', __FILE__ ); ?>' ) no-repeat;
 }
 </style>
 <div class="wrap">
