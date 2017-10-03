@@ -20,8 +20,8 @@ define('THIRTYSUNSPLUGINOPTIONS_ID', 'thirtysuns-plugin');
 define('THIRTYSUNSPLUGINOPTIONS_NICK', '30suns');
 
 class ThirtySuns {
-    public static function file_path($file) {
-        return ABSPATH.'wp-content/plugins/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)).$file;
+    public static function plugin_path() {
+								return untrailingslashit( plugin_dir_path( __FILE__ ) );
     }
     public static function register() {
         register_setting(THIRTYSUNSPLUGINOPTIONS_ID.'_options', 'thirtysuns_username');
@@ -34,7 +34,7 @@ class ThirtySuns {
             wp_die( __('You do not have sufficient permissions to access this page.') );
         }
         $plugin_id = THIRTYSUNSPLUGINOPTIONS_ID;
-        include(self::file_path('options.php'));
+        include( self::plugin_path() . '/' . 'options.php' );
     }
     public static function content_with_quote($content) {
         $quote = '<p><blockquote>' . get_option('thirtysuns_username') . '</blockquote></p>';
