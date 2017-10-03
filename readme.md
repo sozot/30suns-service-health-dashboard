@@ -1,21 +1,21 @@
-=== 30suns Hosted Status Page ===
+# 30suns Hosted Status Page
 Contributors: sozot
 Tags: status, status page, hosted status page, service health, status dashboard, service health dashboard
 Requires at least: 3.0
-Tested up to: 4.6
+Tested up to: 4.8.2
 Donate link: https://sozot.com/
-Stable tag: 1.2
+Stable tag: 1.3.0
 License: GPLv2 or later
 
 30suns makes it easy to start publishing incident reports on a status page.
 
-== Description ==
+## Description
 
 30suns makes it easy to start publishing incident reports on a status page.
 
 This plugin makes it easy to embed your 30suns hosted status page into a normal WordPress page or post using a <code>[thirtysuns]</code> shortcode. You'll need a [30suns.com Username](http://30suns.com/) to use it and you will need to define at least one service. Usernames are free to try with paid subscriptions available for businesses and commercial sites.
 
-= Benefits of Publishing a Hosted Status Page =
+### Benefits of Publishing a Hosted Status Page
 
 If your organization is a solution provider, you understand that downtime can reduce customer confidence and impair your reputation. Hopefully, you can keep downtime to a minimum, but if you do have service outages, it's imperative that you provide your users with access to real-time status updates. 
 
@@ -35,20 +35,27 @@ Publishing a status page will improve communication with your users and can even
 
 To get started, 1) register for a trial account at [30suns.com/register/](https://30suns.com/register/) and add at least one service, 2) install this plugin and enter your username in the settings area and 3) create a page with the shortcode <code>[thirtysuns]</code>.
 
-== Installation ==
+## Installation
 
 Upload the 30suns plugin to your blog, Activate it, then enter your [30suns.com Username](http://30suns.com/). Create a page and insert the shortcode <code>[thirtysuns]</code>. 
 
 That's it! When you publish incident reports on 30suns they will be immediately visible on your site's status page.
 
-== Screenshots ==
+## Screenshots
 
 1. An example of a hosted status page on 30suns.com for Amazon Web Services. When you register, you will be able to list your own services and logo on your public profile page.
 2. An example of embedding a hosted status page within WordPress using the default Twenty Twelve theme, this plugin and the sample Amazon Web Services dashboard. When you activate the plugin and add your 30suns username in the settings area you can embed your 30suns dashboard within any page on your site using the [thirtysuns] shortcode.
 
-== Changelog ==
-= 1.1 =
+## Changelog
+
+### 1.3.0
+* Upgrade for WP 4.8.2
+
+### 1.2
+* Moved to Git repository
+
+### 1.1
 * Supports WordPress 3.9
 
-= 1.0 =
+### 1.0 =
 * First version, allows specifying 30suns username and allows embedding a user's status dashboard using the [thirtysuns] shortcode.
