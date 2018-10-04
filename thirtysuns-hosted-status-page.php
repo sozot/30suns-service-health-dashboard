@@ -3,11 +3,11 @@
  * Plugin Name: 30suns Hosted Status Page
  * Plugin URI: https://30suns.com/
  * Description: 30suns makes it easy to start logging service incidents on a status page. To get started: 1) Click the "Activate" link to the left of this description, 2) <a target="_blank" href="https://30suns.com/register/">Sign up for a 30suns account</a>, 3) Click the "Settings" link to the left of this description and save your username and 4) Create a page or post and enter the shortcode <code>[thirtysuns]</code>
- * Version: 1.3.0
+ * Version: 1.3.1
  * Author: Andy Sozot
  * Author URI: https://sozot.com/
  * Requires at least: 3.0
- * Tested up to: 4.8.2
+ * Tested up to: 4.9.8
  *
  * @author sozot
  */
