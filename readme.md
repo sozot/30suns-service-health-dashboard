@@ -2,9 +2,9 @@
 Contributors: sozot
 Tags: status, status page, hosted status page, service health, status dashboard, service health dashboard
 Requires at least: 3.0
-Tested up to: 5.3.2
+Tested up to: 5.4
 Donate link: https://sozot.com/
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPLv2 or later
 
 30suns makes it easy to start publishing incident reports on a status page.
@@ -47,6 +47,9 @@ That's it! When you publish incident reports on 30suns they will be immediately 
 2. An example of embedding a hosted status page within WordPress using the default Twenty Twelve theme, this plugin and the sample Amazon Web Services dashboard. When you activate the plugin and add your 30suns username in the settings area you can embed your 30suns dashboard within any page on your site using the [thirtysuns] shortcode.
 
 ## Changelog
+
+### 1.3.3
+* Supports WordPress 5.4
 
 ### 1.3.2
 * Supports WordPress 5.3.2
