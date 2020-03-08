@@ -1,12 +1,14 @@
 <style>
-#icon-thirtysuns {
-    background: transparent url( '<?php echo plugins_url( 'img/thirtysuns_32.png', __FILE__ ); ?>' ) no-repeat;
+h2:before {
+    content: '\263C';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-size: 29px;
+    margin-right: 0.3em;
 }
 </style>
 <div class="wrap">
-    
-    <?php screen_icon('thirtysuns'); ?>
-    
+
     <form action="options.php" method="post" id="<?php echo $plugin_id; ?>_options_form" name="<?php echo $plugin_id; ?>_options_form">
     
     <?php settings_fields($plugin_id.'_options'); ?>
@@ -15,7 +17,7 @@
     <table class="widefat">
         <thead>
            <tr>
-                       <th></th>
+                       <th>30suns Settings</th>
            </tr>
         </thead>
         <tfoot>

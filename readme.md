@@ -2,9 +2,9 @@
 Contributors: sozot
 Tags: status, status page, hosted status page, service health, status dashboard, service health dashboard
 Requires at least: 3.0
-Tested up to: 4.9.8
+Tested up to: 5.3.2
 Donate link: https://sozot.com/
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 
 30suns makes it easy to start publishing incident reports on a status page.
@@ -48,8 +48,14 @@ That's it! When you publish incident reports on 30suns they will be immediately 
 
 ## Changelog
 
+### 1.3.2
+* Supports WordPress 5.3.2
+
+### 1.3.1
+* Supports WordPress 5.x
+
 ### 1.3.0
-* Upgrade for WP 4.8.2
+* Supports WordPress 4.8.2
 
 ### 1.2
 * Moved to Git repository
