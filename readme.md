@@ -63,5 +63,5 @@ That's it! When you publish incident reports on 30suns they will be immediately 
 ### 1.1
 * Supports WordPress 3.9
 
-### 1.0 =
+### 1.0
 * First version, allows specifying 30suns username and allows embedding a user's status dashboard using the [thirtysuns] shortcode.
