@@ -48,6 +48,9 @@ That's it! When you publish incident reports on 30suns they will be immediately 
 
 ## Changelog
 
+### 1.3.4
+* Supports WordPress 5.7
+
 ### 1.3.3
 * Supports WordPress 5.4
 
