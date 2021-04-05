@@ -2,9 +2,9 @@
 Contributors: sozot
 Tags: status, status page, hosted status page, service health, status dashboard, service health dashboard
 Requires at least: 3.0
-Tested up to: 5.4
+Tested up to: 5.7
 Donate link: https://sozot.com/
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 License: GPLv2 or later
 
 30suns makes it easy to start publishing incident reports on a status page.
